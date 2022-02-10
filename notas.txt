@@ -1,0 +1,1 @@
+UI desactivada, error al pausar el juego, se acumulan los saltos con el juego en modo pausa

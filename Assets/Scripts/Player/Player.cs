@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     [SerializeField] private Color pinkColor;
     [SerializeField] private ParticleSystem deadAnimation;
     private string currentColor;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +28,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            Jump();
+        }        
     }
 
     public void Jump()

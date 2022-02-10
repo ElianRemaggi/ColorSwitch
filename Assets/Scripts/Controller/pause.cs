@@ -7,10 +7,11 @@ public class pause : MonoBehaviour
     private bool runningTime = true;
     public void alternatePause()
     {
+
         if (runningTime)
-        {
-            runningTime = false;
+        {            
             Time.timeScale = 0;
+            runningTime = false;
         }
         else
         {
